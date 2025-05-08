@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Seraph's Personal Website</title>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;500&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Prompt', sans-serif;
             margin: 0;
-            background-color: #f7f9fc;
+            background-color: #1b1b2f;
+            color: #fff;
         }
         nav {
-            background-color: #4b7bec;
+            background-color: #162447;
             color: #fff;
             padding: 15px 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.5);
         }
         nav h1 {
             margin: 0;
+            color: #e43f5a;
         }
         nav ul {
             list-style: none;
@@ -37,55 +39,76 @@
             color: #fff;
             text-decoration: none;
             font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #e43f5a;
         }
         .container {
-            padding: 40px 20px;
+            padding: 60px 20px;
             text-align: center;
         }
         .container h2 {
-            color: #333;
-            font-size: 36px;
+            color: #e43f5a;
+            font-size: 42px;
             margin-bottom: 20px;
         }
         .container p {
-            color: #555;
-            font-size: 18px;
+            color: #ddd;
+            font-size: 20px;
             line-height: 1.6;
             max-width: 800px;
             margin: auto;
         }
+        .developer-profile {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .developer-profile img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #e43f5a;
+            margin-bottom: 20px;
+        }
         footer {
-            background-color: #333;
+            background-color: #0f3460;
             color: #fff;
             padding: 20px 0;
             text-align: center;
-            margin-top: 20px;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
     <nav>
-        <h1>My Website</h1>
+        <h1>Seraph's Hub</h1>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="#developer">Developer</a></li>
         </ul>
     </nav>
     <div class="container" id="home">
-        <h2>Welcome to My Website</h2>
-        <p>สวัสดีครับ! ยินดีต้อนรับเข้าสู่เว็บไซต์ของฉัน ที่นี่คุณจะได้รู้จักกับตัวตนและผลงานของฉัน.</p>
+        <h2>Welcome to Seraph's Hub</h2>
+        <p>ยินดีต้อนรับเข้าสู่โลกของ Seraph ที่เต็มไปด้วยความคิดสร้างสรรค์และนวัตกรรม</p>
     </div>
     <div class="container" id="about">
-        <h2>About Me</h2>
-        <p>ฉันเป็นนักพัฒนาเว็บไซต์ที่รักการสร้างสรรค์และพัฒนาโปรเจกต์ใหม่ๆ เพื่อให้ผู้คนเข้าถึงข้อมูลและประสบการณ์ที่ดีที่สุด.</p>
+        <h2>About Seraph</h2>
+        <p>Seraph เป็นนักพัฒนาเว็บไซต์ที่รักการสร้างสรรค์และพัฒนาโปรเจกต์ใหม่ๆ เพื่อให้ผู้คนเข้าถึงข้อมูลและประสบการณ์ที่ดีที่สุด.</p>
     </div>
     <div class="container" id="contact">
         <h2>Contact Me</h2>
         <p>หากต้องการติดต่อฉัน สามารถส่งข้อความผ่านอีเมลได้ที่: example@email.com</p>
     </div>
+    <div class="container developer-profile" id="developer">
+        <h2>Developer Profile</h2>
+        <img src="https://cdn.discordapp.com/attachments/1367403172556967940/1369892821355728896/3b7ce67f9f7198dc2205d5e04d06af88.jpg" alt="Seraph Profile">
+        <p>Seraph - นักพัฒนาผู้รักการสร้างสรรค์และสร้างนวัตกรรมในโลกของโปรแกรมมิ่ง.</p>
+    </div>
     <footer>
-        &copy; 2025 My Personal Website. All rights reserved.
+        &copy; 2025 Seraph's Hub. All rights reserved.
     </footer>
 </body>
-  </html>
+</html>
